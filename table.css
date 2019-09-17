@@ -1,0 +1,29 @@
+.divTable a {
+    display: table;
+    width: 100%;
+}
+.divTableRow a {
+    display: table-row;
+}
+.divTableHeading a {
+    background-color: #EEE;
+    display: table-header-group;
+}
+.divTableCell, .divTableHead a {
+    border: 1px solid #999999;
+    display: table-cell;
+    padding: 3px 10px;
+}
+.divTableHeading a {
+    background-color: #EEE;
+    display: table-header-group;
+    font-weight: bold;
+}
+.divTableFoot a {
+    background-color: #EEE;
+    display: table-footer-group;
+    font-weight: bold;
+}
+.divTableBody a {
+    display: table-row-group;
+}
